@@ -1,5 +1,5 @@
 {
-  "name": "huzaifa-calc-app",
+  "name": "huzaifa-numb-guess",
   "version": "1.2.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Huzaifa Siddiqui",
   "license": "ISC",
-    "bin": {
-    "huzaifa-calc-app": "./build/index.js"
+  "bin": {
+    "huzaifa-numb-guess": "./build/index.js"
   },
   "devDependencies": {
     "@types/chalk-animation": "^1.6.1",

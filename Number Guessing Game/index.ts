@@ -8,7 +8,7 @@ let randomNum = Math.floor(Math.random() * 10);
 
 const stopIntro = async () => {
   return new Promise((res) => {
-    setTimeout(res, 3000);
+    setTimeout(res, 1500);
   });
 };
 const intro = async () => {
@@ -34,25 +34,29 @@ const guessNumFunc = async () => {
   }
 };
 
-
-const startAgain = async ()=>{
-do {
-   await guessNumFunc();
-     var playAgain = await inquirer.prompt({
-      name: "restart",
-      type: "input",
-      message: "Wanna Play Again? Press y to Play Again ",
-    });
-}
-while (
-    (await playAgain.restart) == "y" ||
-    (await playAgain.restart) == "Y" ||
-    (await playAgain.restart) == "yes" ||
-    (await playAgain.restart) == "YES" ||
-    (await playAgain.restart) == "Yes"
-  );
-
-}
+guessNumFunc()
 
 
-startAgain();
+// const startAgain = async ()=>{
+
+  
+// do {
+//    await guessNumFunc();
+//      var playAgain = await inquirer.prompt({
+//       name: "restart",
+//       type: "input",
+//       message: "Wanna Play Again? Press y to Play Again ",
+//     });
+// }
+// while (
+//     (await playAgain.restart) == "y" ||
+//     (await playAgain.restart) == "Y" ||
+//     (await playAgain.restart) == "yes" ||
+//     (await playAgain.restart) == "YES" ||
+//     (await playAgain.restart) == "Yes"
+//   );
+
+// }
+
+
+// startAgain();

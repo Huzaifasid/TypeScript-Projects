@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "bin": {
-    "huzaifa_calculator01": "./build/index.js"
+    "huzaifa_calculator": "./build/index.js"
   },
   "author": "Huzaifa Ahmed Siddiqui",
   "license": "ISC",

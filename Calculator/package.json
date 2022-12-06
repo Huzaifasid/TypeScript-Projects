@@ -1,15 +1,17 @@
 {
   "name": "calculator",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "bin": {
+    "huzaifa_calcu": "./build/index.js"
+  },
   "author": "Huzaifa Ahmed Siddiqui",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/chalk-animation": "^1.6.1",
     "@types/inquirer": "^9.0.3",
@@ -19,5 +21,6 @@
     "chalk": "^5.1.2",
     "chalk-animation": "^2.0.3",
     "inquirer": "^9.1.4"
-  }
+  },
+  "description": ""
 }
